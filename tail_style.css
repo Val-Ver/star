@@ -1,0 +1,61 @@
+﻿canvas {
+	border: 1px solid rgba(155,100,55,1);
+	//border: 1px solid black;
+	border-radius: 12px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+	//background-color: rgba(200,200,200,0.4);
+	background-color: rgba(15,20,65,1);
+}
+
+.blue-button {
+	//background-color: rgba(155,155,155,1);
+	//border: 1px solid black;
+
+	background-color: rgba(15,20,65,0.5);
+	border: 1px solid rgba(155,100,55,1);
+
+	color: rgba(255,215,00,1);
+	border-radius: 12px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.blue-button:hover {
+	color: rgba(15,20,65,1);
+	background-color: rgba(255,215,00,1);
+	//background-color: rgba(55,0,55,1);
+}
+	
+.modalExit {
+	//top: 619px;
+	display: flex;
+	position: fixed;
+	z-index: 1;
+	
+	align-items: center;
+	justify-content: center;
+	//text-align: center;
+	border-radius: 12px;
+	//border: 1px solid black;
+	border: 1px solid rgba(155,100,55,1);
+	box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+	background-color: rgba(15,20,65,1);
+}
+	
+.start {
+	width: 185px;
+	height: 100px;
+	left: 9px;
+}
+
+
+.chooseColor {
+	width: 600px;
+	height: 100px;
+	left: 209px;
+}
+
+.non-selectable {
+	user-select:none;
+}
+
